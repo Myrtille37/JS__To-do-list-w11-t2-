@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    width: 50vw;
+    height:100vh;
+    background-color: rgb(211, 188, 245);
+}
+.head{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+#inputTask{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end:3; 
+    width: 300px;
+    height: 40px;
+}
+#button{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+    width: 200px;
+    height: 40px;
+}
+#taskList{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:4;
+    gap: 20px; 
+}
+.complited{
+    text-decoration: line-through;
+	text-decoration-color: rgb(17, 17, 17);
+    list-style-type: circle;  
+}
